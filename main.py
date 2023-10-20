@@ -6,5 +6,6 @@ def main():
     print(autor1._nome)
     print(autor2.calcula_idade(2023))
 
+
 if __name__ == "_main_":
     main()
