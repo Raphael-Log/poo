@@ -4,6 +4,12 @@ class Autor:
         self._ano_nascimento = ano_nascimento
         self. _endereco = endereco
 
+
+    def calcula_idade(self, ano_atual):
+        idade = ano_atual - self._ano_nascimento
+        return idade
+
+
 class Livro:
      def __init__(self, titulo, ano, valor, autor):
          self._titulo = titulo
